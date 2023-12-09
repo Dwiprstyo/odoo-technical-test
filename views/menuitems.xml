@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <menuitem id="material_menu" name="Material" sequence="0"/>
+    </data>
+
+</odoo>

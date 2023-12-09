@@ -1,0 +1,17 @@
+<odoo>
+    <data noupdate="1">
+
+        <record id="data_material_supplier_1" model="material.supplier">
+            <field name="name">Pabrik</field>
+        </record>
+
+        <record id="data_material_supplier_2" model="material.supplier">
+            <field name="name">Konveksi</field>
+        </record>
+
+        <record id="data_material_supplier_3" model="material.supplier">
+            <field name="name">Perorangan</field>
+        </record>
+
+    </data>
+</odoo>

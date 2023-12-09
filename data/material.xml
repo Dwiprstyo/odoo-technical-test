@@ -1,0 +1,29 @@
+<odoo>
+    <data noupdate="1">
+
+        <record id="data_material_1" model="material.material">
+            <field name="code">P-0001</field>
+            <field name="name">Kain Celana Jeans</field>
+            <field name="type">Jeans</field>
+            <field name="buy_price">500</field>
+            <field name="supplier_id">1</field>
+        </record>
+
+        <record id="data_material_2" model="material.material">
+            <field name="code">C-0010</field>
+            <field name="name">Kain Kaos</field>
+            <field name="type">Cotton</field>
+            <field name="buy_price">1000</field>
+            <field name="supplier_id">2</field>
+        </record>
+
+        <record id="data_material_3" model="material.material">
+            <field name="code">F-0002</field>
+            <field name="name">Kain Celana</field>
+            <field name="type">Fabric</field>
+            <field name="buy_price">2000</field>
+            <field name="supplier_id">3</field>
+        </record>
+
+    </data>
+</odoo>

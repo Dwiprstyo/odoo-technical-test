@@ -1,0 +1,35 @@
+<odoo>
+    <data>
+        <record id="material_supplier_view_form" model="ir.ui.view">
+            <field name="name">material.supplier.view.form</field>
+            <field name="model">material.supplier</field>
+            <field name="arch" type="xml">
+                <form string="">
+                    <sheet>
+                        <group>
+                            <field name="name"></field>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="material_supplier_view_tree" model="ir.ui.view">
+            <field name="name">material.supplier.view.tree</field>
+            <field name="model">material.supplier</field>
+            <field name="arch" type="xml">
+                <tree string="">
+                    <field name="name"></field>
+                </tree>
+            </field>
+        </record>
+
+        <record id="material_supplier_action" model="ir.actions.act_window">
+            <field name="name">Supplier</field>
+            <field name="res_model">material.supplier</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem id="material_supplier_menu" name="Supplier" parent="material_menu" action="material_supplier_action" sequence="1"/>
+    </data>
+</odoo>
