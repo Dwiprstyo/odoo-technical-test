@@ -1,5 +1,5 @@
 <odoo>
-    <data noupdate="1">
+    <data>
 
         <record id="data_material_1" model="material.material">
             <field name="code">P-0001</field>
